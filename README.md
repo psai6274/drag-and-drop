@@ -6,7 +6,7 @@
 
 ## Live Demo
 
-Check out the live demo [here](https://669a1455a6bc400008126f62--angular-health-tracker.netlify.app).
+Check out the live demo [here](https://psai6274.github.io/drag-and-drop/).
 
 ## Table of Contents
 
