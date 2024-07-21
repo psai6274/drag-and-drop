@@ -37,15 +37,15 @@ const Table = () => {
         })));
     };
 
-    const handleRemoveVariant = () => {
-        if (variantCount > 1) {
-            setVariantCount(variantCount - 1);
-            setStates(states.map(state => ({
-                ...state,
-                variants: state.variants.slice(0, -1)
-            })));
-        }
-    };
+    // const handleRemoveVariant = () => {
+    //     if (variantCount > 1) {
+    //         setVariantCount(variantCount - 1);
+    //         setStates(states.map(state => ({
+    //             ...state,
+    //             variants: state.variants.slice(0, -1)
+    //         })));
+    //     }
+    // };
 
     const onDragEnd = (result) => {
         if (!result.destination) return;
